@@ -48,10 +48,9 @@ El proyecto demostró que es posible utilizar técnicas de machine learning para
 
 ## Instrucciones para ejecutar el proyecto:
 1. Clonar el repositorio
-   ``` 
+   ```
    git clone https://github.com/ErayFaSol/Sprint-8-introduccion-al-machine-learning
-cd Sprint-8-introduccion-al-machine-learning
-
+   cd Sprint-8-introduccion-al-machine-learning
    ```
 2. Instalar las dependencias
    ``` 

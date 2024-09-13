@@ -48,19 +48,12 @@ El proyecto demostró que es posible utilizar técnicas de machine learning para
 
 ## Instrucciones para ejecutar el proyecto:
 1. Clonar el repositorio
-   ''' 
-   git clone https://github.com/ErayFaSol/Sprint-8-introduccion-al-machine-learning
-cd Sprint-8-introduccion-al-machine-learning
-
-   '''
+   '''git clone https://github.com/ErayFaSol/Sprint-8-introduccion-al-machine-learning
+cd Sprint-8-introduccion-al-machine-learning'''
 2. Instalar las dependencias
-   ''' 
-   pip install -r requirements.txt
-   '''
+   '''pip install -r requirements.txt'''
 3. Ejecuta el script principal
-   ''' 
-   python src/main.py
-   '''
+   '''python src/main.py'''
 4. La ejecucion creara un archivo llamado *reporte_final.html*
 
 

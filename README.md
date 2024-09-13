@@ -48,10 +48,6 @@ El modelo de Random Forest logró recomendar correctamente el plan en el 82% de 
 
 ## Instrucciones para ejecutar el proyecto:
 1. Clonar el repositorio
-   ```
-   git clone https://github.com/ErayFaSol/Sprint-8-introduccion-al-machine-learning
-   cd Sprint-8-introduccion-al-machine-learning
-   ```
 2. Instalar las dependencias
    ```
    pip install -r requirements.txt

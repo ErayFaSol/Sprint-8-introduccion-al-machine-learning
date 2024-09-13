@@ -38,7 +38,7 @@ se utilizaron dos modelos de clasificacion:
 - *Regresión Logística:* También se ajustaron hiperparámetros como el parámetro de regularización, obteniendo una precisión del 78%.
 
 ## Conclusiones
-El proyecto demostró que es posible utilizar técnicas de machine learning para personalizar los planes de telefonía móvil recomendados a los clientes. Sin embargo, hay espacio para mejorar en la precisión del modelo, por lo que futuras iteraciones podrían probar con más datos o algoritmos avanzados como redes neuronales.
+El modelo de Random Forest logró recomendar correctamente el plan en el 82% de los casos. Este resultado puede ser utilizado para personalizar las ofertas de la empresa de telecomunicaciones y mejorar la retención de clientes.
 
 ### Futuras mejoras
 - Incluir más características relacionadas con el perfil de cliente.

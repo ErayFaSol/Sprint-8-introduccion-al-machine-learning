@@ -53,13 +53,12 @@ El proyecto demostró que es posible utilizar técnicas de machine learning para
    cd Sprint-8-introduccion-al-machine-learning
    ```
 2. Instalar las dependencias
-   ``` 
+   ```
    pip install -r requirements.txt
    ```
 3. Ejecuta el script principal
    ``` 
    python src/main.py
-
    ```
 4. La ejecucion creara un archivo llamado *reporte_final.html*
 

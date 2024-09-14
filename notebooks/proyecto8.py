@@ -62,38 +62,38 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
-from IPython.display import HTML
+#from IPython.print import 
 from sklearn.model_selection import GridSearchCV
-
+# %%
 # Importar Archivos
-df = pd.read_csv("datasets/users_behavior.csv")
+df = pd.read_csv('../data/users_behavior.csv')
 
 # Mostrar datos relevantes del dataframe
-display(HTML('<hr>'))
-display(HTML('<h1> Datos de comportamiento de usuarios '))
-display(df.head())
-display(df.info())
-display(df.describe())
+print(('---------------------------------'))
+print(('======= Datos de comportamiento de usuarios ======= '))
+print(df.head())
+print(df.info())
+print(df.describe())
 
 # Verificacion de datos nulos 
 nulos = df.isnull().sum()
-display(HTML('<h2> Verificacion de valores nulos'))
-display(nulos)
+print(('======= Verificacion de valores nulos ======='))
+print(nulos)
 
 # Verificación de valores duplicados
 duplicados = df.duplicated().sum()
-display(HTML('<h2> Verificación de valores duplicados </h2>'))
-display(f"Total de valores duplicados: {duplicados}")
+print(('======= Verificación de valores duplicados ======='))
+print(f"Total de valores duplicados: {duplicados}")
 
-display(HTML('<hr>'))
+print(('---------------------------------'))
 
 comentario = """
-<h2> Comentario sobre la exploracion inicial del archivo </h2>
-<p> Tras Realizar la exploracion inicial de datos se observo que no hay datos duplicados o nulos dentro del conjunto.
+======= Comentario sobre la exploracion inicial del archivo =======
+Tras Realizar la exploracion inicial de datos se observo que no hay datos duplicados o nulos dentro del conjunto.
 Este conjunto de datos recopila informacion sobre el comportamiento de los usuarios, lo cuales engloban las llamadas, minutos utilizados, mensaje enviados y el uso de datos en MB
 
 """
-display(HTML(comentario))
+print((comentario))
 
 # %% [markdown]
 # ### Segmentacion de datos en conjuntos de entrenamiento, validacion y prueba
@@ -205,11 +205,11 @@ lr_feature_importance = pd.DataFrame(lr_coefficients,
                                      index=X_train.columns, 
                                      columns=['Coefficient']).sort_values('Coefficient', ascending=False)
 
-display(HTML('<hr>'))
-display(HTML('<h2> Random forest: '))
+print(('---------------------------------'))
+print(('======= Random forest: '))
 print("Importancia de características en Random Forest:\n", rf_feature_importances)
-display(HTML('<hr>'))
-display(HTML('<h2> Logistic Regression: '))
+print(('---------------------------------'))
+print(('======= Logistic Regression: '))
 print("Importancia de las características en la Regresión Logística:\n", lr_feature_importance)
 
 

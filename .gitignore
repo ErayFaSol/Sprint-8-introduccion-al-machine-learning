@@ -1,0 +1,32 @@
+# Entorno virtual
+venv/
+.env/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de log y bases de datos grandes
+*.log
+*.csv
+
+# Configuración de entornos de desarrollo
+.vscode/
+.idea/
+
+# Archivos de compilación
+*.egg-info/
+*.pyc
+
+# Archivos temporales de Jupyter y otros
+.ipynb_checkpoints/
+*.checkpoint
+
+# Reportes generados
+reporte_final.html
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
